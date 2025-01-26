@@ -1,16 +1,25 @@
-<title>Dependencies
-<text>ArnavDB does not use any Dependancies, however it will require 
-you to install the user side script for ease of access. Additionally you will need to 
-download the [Wrangler API][code] for local access of the database.
+<title>This is an SFL file
+<text>Here is some text explaining
+how an sfl file works
+new lines don't make a difference and this will
+all be compiled as one line
+
+Two lines will make a difference and make this text a new paragraph
 
 
-If you don't want to install any dependancies you can just use the online interface.
+Three lines will make this a new paragraph with a space between the two, in
+essence making each blank line a \n character, 
 ~
-<code>npx -install Wrangler
-
-npx -compile
-
-Wrangler DB 
-
 ~
-<text>Thank you for reading
+and each tilda is used only as a filler character to make the file clearer,
+they will be treated as if they don't exist
+~
+<code>const some_code = "code";
+
+// Each new line of code needs a blank space between them
+
+function new_doc(){
+
+// TODO
+
+}
