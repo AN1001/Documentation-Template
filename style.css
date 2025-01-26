@@ -134,6 +134,60 @@ body{
   margin: 0 4px 0 4px;
 }
 
+/* Link Styles */
+.genLink {
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* List Styles */
+.genList {
+  margin: 10px 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+/* Table Styles */
+.genTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.genTable th, .genTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.genTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Blockquote Styles */
+.genBlockquote {
+  font-style: italic;
+  font-size: 20px;
+  margin: 10px 0;
+  border-left: 4px solid #ccc;
+  padding-left: 10px;
+  color: var(--faint-text);
+}
+
+/* Picture Styles */
+.genPicture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
