@@ -9,6 +9,10 @@ Provides only basic support for simple documentation, some features include:
   - Text with inline spans
   - Support for Bold, Italics and Code
   - Code area (no syntax highlighting)
+  - Blockquote
+  - Blank space
+  - Links
+  - Pictures
 
 - .sfl format is structured format language
 - Just add a section and link a .sfl file to make a new page
