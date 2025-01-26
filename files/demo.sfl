@@ -1,18 +1,18 @@
 <title>This is an SFL file
-<text>Here is some text explaining
-how an sfl file works
-new lines don't make a difference and this will
-all be compiled as one line
+<text>Here is some text explaining 
+how an sfl file works 
+new lines don't make a difference and this will 
+all be compiled as one line.    
 
-Two lines will make a difference and make this text a new paragraph
+Two lines will make a difference and make this text a new paragraph.
 
 
-Three lines will make this a new paragraph with a space between the two, in
+Three lines will make this a new paragraph with a space between the two, in 
 essence making each blank line a \n character, 
 ~
 ~
-and each tilda is used only as a filler character to make the file clearer,
-they will be treated as if they don't exist
+and each tilda is used only as a filler character to make the file clearer, 
+they will be treated as if they don't exist.
 ~
 <code>const some_code = "code";
 
@@ -20,6 +20,11 @@ they will be treated as if they don't exist
 
 function new_doc(){
 
-// TODO
+
+    // TODO
+
 
 }
+~
+<text>View a working demo here:
+<code>https://adb-docs.pages.dev/
