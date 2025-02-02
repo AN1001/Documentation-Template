@@ -14,8 +14,8 @@ Provides only basic support for simple documentation, some features include:
   - Links
   - Pictures
 
-- .sfl format is structured format language
-- Just add a section and link a .sfl file to make a new page
+.sfl format is structured format language
+Just add a section and link a .sfl file to make a new page
 
 ### .sfl files
 A structured format language file will look like this
